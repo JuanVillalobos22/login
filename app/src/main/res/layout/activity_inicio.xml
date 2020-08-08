@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nombreusuario"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="HOLA"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="274dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/f" />
+
+        <TextView
+            android:id="@+id/Monedas"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="1000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="133dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1.2"
+        android:src="@mipmap/a"
+        app:srcCompat="@mipmap/g" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="163dp"
+        android:textStyle="bold"
+        android:text="LAPTOP DELL CORE i7" />
+
+    <Button
+        android:id="@+id/ComprarLap"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="185dp"
+        android:background="#B22222"
+        android:text="Comprar"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="85dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@mipmap/h" />
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold"
+        android:text="Huawei Y7 2019" />
+
+    <Button
+        android:id="@+id/ComprarCel"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="185dp"
+        android:background="#B22222"
+        android:text="Comprar"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        app:srcCompat="@mipmap/k" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="363dp"
+        android:textStyle="bold"
+        android:text="COMPUTADORA GAMER " />
+
+    <Button
+        android:id="@+id/ComprarPc"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="385dp"
+        android:background="#B22222"
+        android:text="Comprar"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView89"
+        android:layout_width="134dp"
+        android:layout_height="131dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@mipmap/j" />
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="345dp"
+        android:textStyle="bold"
+        android:text="Mando inalámbrico DUALSHOCK®3" />
+
+    <Button
+        android:id="@+id/ComprarMando"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="385dp"
+        android:background="#B22222"
+        android:text="Comprar"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="485dp"
+        android:background="#2F4F4F"
+        android:text="SALIR"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnRecargar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="485dp"
+        android:background="#2F4F4F"
+        android:text="RECARGAR"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="485dp"
+        android:background="#2F4F4F"
+        android:text="EDITAR"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
